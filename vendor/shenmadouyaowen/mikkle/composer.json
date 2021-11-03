@@ -1,0 +1,19 @@
+{
+    "name": "shenmadouyaowen/mikkle",
+    "description": "本包来源bobofan1995/tp_extends_pack，如有侵权请联系删除",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shenmadouyao",
+            "email": "shenmadouyao@163.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "mikkle\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
