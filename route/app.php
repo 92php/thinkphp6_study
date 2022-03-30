@@ -72,6 +72,11 @@ Route::rule("qc","qc/index","get");
 Route::rule("fenci","fenci/jieba","get");
 //导出excel
 Route::rule("daochu","Daochu/index","get");
+
+Route::rule("daochu1","Daochu/insert","get");
+
+Route::rule("daochu2","Daochu/test","get");
+
 //采集插件的使用
 Route::rule("caiji","Caiji/index","get");
 //验证码

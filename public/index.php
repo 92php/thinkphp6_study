@@ -25,7 +25,6 @@ define('UPLOAD','/uploads');
 // 模板部署
 define('TEMPLATE_PATH', 'template');
 
-
 //通过Ioc容器将HTTP类实例出来
 // 执行HTTP应用并响应
 $http = (new App())->http; //(总的来说，整个过程大概是这样的：需要实例化 Http 类 ==> 提取构造函数发现其依赖 App 类 ==> 开始实例化 App 类（如果发现还有依赖，则一直提取下去，直到天荒地老）==> 将实例化好的依赖（App 类的实例）传入 Http 类来实例化 Http 类。)

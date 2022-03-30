@@ -34,6 +34,40 @@ function d($str)
     echo "<br/>";
 }
 
+function microtime_float()
+{
+    list($usec, $sec) = explode(" ", microtime());
+    return ((float)$usec + (float)$sec);
+}
+
+function convert($size)
+{
+    $unit = array('b','kb','mb','gb','tb','pb');
+    return @round($size/pow(1024,($i=floor(log($size,1024)))),2).' '.$unit[$i];
+}
+
+
+function getRows($file)
+{
+    $handle = fopen($file, 'rb');
+
+
+    if (!$handle) {
+        throw new Exception();
+    }
+    while (!feof($handle)) {
+        yield fgetcsv($handle);
+    }
+    fclose($handle);
+}
+
+
+
+
+
+
+
+
 
 
 

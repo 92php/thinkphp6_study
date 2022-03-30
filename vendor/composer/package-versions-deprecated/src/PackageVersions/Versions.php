@@ -61,11 +61,14 @@ final class Versions
   'league/flysystem' => '1.1.5@18634df356bfd4119fe3d6156bdb990c414c14ea',
   'league/flysystem-cached-adapter' => '1.1.0@d1925efb2207ac4be3ad0c40b8277175f99ffaff',
   'league/mime-type-detection' => '1.8.0@b38b25d7b372e9fddb00335400467b223349fd7e',
+  'mk-j/php_xlsxwriter' => '0.38@00579529fea072851789505b2dec0d14cdfffe60',
   'mpdf/mpdf' => 'v8.0.13@42f145615cfe830fd432474da1d2e1f927efe402',
   'myclabs/deep-copy' => '1.10.2@776f831124e9c62e1a2c601ecc52e776d8bb7220',
   'nesbot/carbon' => '2.53.1@f4655858a784988f880c1b8c7feabbf02dfdf045',
+  'nuovo/spreadsheet-reader' => '0.5.11@f6bd49d101042eaa71b0fbd82e7a57e5a276dc3d',
   'paragonie/random_compat' => 'v9.99.100@996434e5492cb4c3edcb9168db6fbb1359ef965a',
   'phpmailer/phpmailer' => 'v6.5.1@dd803df5ad7492e1b40637f7ebd258fee5ca7355',
+  'phpoffice/phpexcel' => '1.8.2@1441011fb7ecdd8cc689878f54f8b58a6805f870',
   'psr/cache' => '1.0.1@d11b50ad223250cf17b86e38383413f5a6764bf8',
   'psr/container' => '1.1.1@8622567409010282b7aeebe4bb841fe98b58dcaf',
   'psr/http-client' => '1.0.1@2dfb5f6c5eff0e91e20e913f8c5452ed95b86621',
@@ -102,7 +105,7 @@ final class Versions
   'topthink/think-view' => 'v1.0.14@edce0ae2c9551ab65f9e94a222604b0dead3576d',
   'wenhainan/thinkphp6-auth' => '1.0.4@e427acce5c392fbeca4ae3af762b75b13f3eac2b',
   'topthink/think-trace' => 'v1.4@9a9fa8f767b6c66c5a133ad21ca1bc96ad329444',
-  'topthink/think' => '1.0.0+no-version-set@',
+  'topthink/think' => 'dev-main@e932646642187ae417e00573f8004dd3413f6f72',
 );
 
     private function __construct()

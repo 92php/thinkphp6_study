@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'e932646642187ae417e00573f8004dd3413f6f72',
         'name' => 'topthink/think',
         'dev' => true,
     ),
@@ -264,6 +264,15 @@
             'reference' => 'b38b25d7b372e9fddb00335400467b223349fd7e',
             'dev_requirement' => false,
         ),
+        'mk-j/php_xlsxwriter' => array(
+            'pretty_version' => '0.38',
+            'version' => '0.38.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../mk-j/php_xlsxwriter',
+            'aliases' => array(),
+            'reference' => '00579529fea072851789505b2dec0d14cdfffe60',
+            'dev_requirement' => false,
+        ),
         'mpdf/mpdf' => array(
             'pretty_version' => 'v8.0.13',
             'version' => '8.0.13.0',
@@ -294,6 +303,15 @@
             'reference' => 'f4655858a784988f880c1b8c7feabbf02dfdf045',
             'dev_requirement' => false,
         ),
+        'nuovo/spreadsheet-reader' => array(
+            'pretty_version' => '0.5.11',
+            'version' => '0.5.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nuovo/spreadsheet-reader',
+            'aliases' => array(),
+            'reference' => 'f6bd49d101042eaa71b0fbd82e7a57e5a276dc3d',
+            'dev_requirement' => false,
+        ),
         'ocramius/package-versions' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -316,6 +334,15 @@
             'install_path' => __DIR__ . '/../phpmailer/phpmailer',
             'aliases' => array(),
             'reference' => 'dd803df5ad7492e1b40637f7ebd258fee5ca7355',
+            'dev_requirement' => false,
+        ),
+        'phpoffice/phpexcel' => array(
+            'pretty_version' => '1.8.2',
+            'version' => '1.8.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoffice/phpexcel',
+            'aliases' => array(),
+            'reference' => '1441011fb7ecdd8cc689878f54f8b58a6805f870',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(
@@ -615,12 +642,12 @@
             'dev_requirement' => false,
         ),
         'topthink/think' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'e932646642187ae417e00573f8004dd3413f6f72',
             'dev_requirement' => false,
         ),
         'topthink/think-captcha' => array(

@@ -402,6 +402,16 @@ class ComposerStaticInitf4d5a86434d2da3f668decc037154052
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PHPExcel' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoffice/phpexcel/Classes',
+            ),
+        ),
+    );
+
     public static $fallbackDirsPsr0 = array (
         0 => __DIR__ . '/../..' . '/extend',
     );
@@ -419,9 +429,18 @@ class ComposerStaticInitf4d5a86434d2da3f668decc037154052
         'DOMEvent' => __DIR__ . '/..' . '/jaeger/phpquery-single/phpQuery.php',
         'ICallbackNamed' => __DIR__ . '/..' . '/jaeger/phpquery-single/phpQuery.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'OLERead' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/php-excel-reader/excel_reader2.php',
+        'SpreadsheetReader' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/SpreadsheetReader.php',
+        'SpreadsheetReader_CSV' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/SpreadsheetReader_CSV.php',
+        'SpreadsheetReader_ODS' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/SpreadsheetReader_ODS.php',
+        'SpreadsheetReader_XLS' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/SpreadsheetReader_XLS.php',
+        'SpreadsheetReader_XLSX' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/SpreadsheetReader_XLSX.php',
+        'Spreadsheet_Excel_Reader' => __DIR__ . '/..' . '/nuovo/spreadsheet-reader/php-excel-reader/excel_reader2.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'XLSXWriter' => __DIR__ . '/..' . '/mk-j/php_xlsxwriter/xlsxwriter.class.php',
+        'XLSXWriter_BuffererWriter' => __DIR__ . '/..' . '/mk-j/php_xlsxwriter/xlsxwriter.class.php',
         'phpQuery' => __DIR__ . '/..' . '/jaeger/phpquery-single/phpQuery.php',
         'phpQueryEvents' => __DIR__ . '/..' . '/jaeger/phpquery-single/phpQuery.php',
         'phpQueryObject' => __DIR__ . '/..' . '/jaeger/phpquery-single/phpQuery.php',
@@ -433,6 +452,7 @@ class ComposerStaticInitf4d5a86434d2da3f668decc037154052
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitf4d5a86434d2da3f668decc037154052::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitf4d5a86434d2da3f668decc037154052::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf4d5a86434d2da3f668decc037154052::$prefixesPsr0;
             $loader->fallbackDirsPsr0 = ComposerStaticInitf4d5a86434d2da3f668decc037154052::$fallbackDirsPsr0;
             $loader->classMap = ComposerStaticInitf4d5a86434d2da3f668decc037154052::$classMap;
 
